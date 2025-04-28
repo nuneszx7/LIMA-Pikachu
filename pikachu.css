@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+.righteous-regular {
+    font-family: "Righteous", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-column: auto;
+    background: linear-gradient(0deg,rgba(255, 234, 0, 1) 0%, rgba(250, 233, 0, 1) 50%, rgba(217, 195, 0, 1) 100%);
+}
+
+header, footer {
+    height: 100px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+main {
+    flex-grow: 1;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #8E4106;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 411px;
+    height: 100px;
+    top: 683px;
+    font-family: "Righteous", sans-serif;
+    left: 959px;
+    border: #8E4106;
+    transition: 0.6s;
+}
+
+.button:hover {
+    background-color: #bb7300;
+    cursor: pointer;
+}
+
+/* .background-logo {
+    position: absolute;
+    width: 1462px;
+    height: 548px;
+    margin: auto;
+    top: -188px;
+    left: -11px;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.logo2{
+    width: 1096px;
+    height: 373px;
+    top: 263px;
+    left: 172px;
+} */
+
+.pikachuBRA {
+    position: absolute;
+    text-align: center;
+    width: 1096px;
+    height: 373px;
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    top: 263px;
+    left: 572px;
+    font-size: 300px;
+    font-weight: 400;
+    z-index: -1;
+}
+
+.pikachuOP {
+    position: absolute;
+    text-align: center;
+    width: 1462px;
+    height: 492px;
+    font-family: "Righteous", sans-serif;
+    color: #FFFFFF;
+    top: 88px;
+    left: 511px;
+    font-size: 400px;
+    font-weight: 400;
+    z-index: -2;
+    opacity: 30%;
+}
+
+.content-image {
+    width: 559px;
+    height: 541px;
+    top: 292px;
+    left: 440px;
+}
+
+.content-text {
+    position: relative;
+    color: #8E4106;
+    font-size: 4rem;
+    width: 530px;
+    font-family: "Righteous", sans-serif;
+    height: 79px;
+    top: 629px;
+    left: 70px;
+    transform: translateX(-100%);
+    text-align: left;
+}
+
+.content-text1 {
+    position: relative;
+    color: #8E4106;
+    font-size: 1.25rem;
+    font-family: "Righteous", sans-serif;
+    width: 489px;
+    height: 75px;
+    top: 588px;
+    left: 10px;
+    transform: translateX(-100%);
+    text-align: left;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #8E4106;
+    padding-left: 75px;
+    font-family: "Righteous", sans-serif;
+    justify-content: flex-start;
+}
+
+header span {
+    font-size: 32px;
+    width: 134px;
+    height: 40px;
+    top: 74px;
+    left: 135px;
+}
+
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 75px;
+    padding-left: 75px;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+
+footer div {
+    width: 208px;
+    height: 20px;
+    top: 856px;
+    left: 586px;
+}
+
+@media(max-width: 758px) {
+    header{
+        padding-left: 25px;
+    }
+    .content-text {
+        transform: translateX(0%);
+        top: 170px;
+        font-size: 1.7rem;
+        width: 100px;
+        text-align: center;
+    }
+    
+    .content-image {
+        height: 60vh;
+    }
+    
+.background-logo{
+    width: 90%;
+}
+
+    footer {
+        padding: 0px 25px;
+    }
+}
