@@ -35,44 +35,6 @@ main {
     align-items: center;
 }
 
-.button {
-    background-color: #8E4106;
-    color: #FFFFFF;
-    border-radius: 4px;
-    font-size: 24px;
-    width: 411px;
-    height: 100px;
-    top: 683px;
-    font-family: "Righteous", sans-serif;
-    left: 959px;
-    border: #8E4106;
-    transition: 0.6s;
-}
-
-.button:hover {
-    background-color: #bb7300;
-    cursor: pointer;
-}
-
-/* .background-logo {
-    position: absolute;
-    width: 1462px;
-    height: 548px;
-    margin: auto;
-    top: -188px;
-    left: -11px;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
-
-.logo2{
-    width: 1096px;
-    height: 373px;
-    top: 263px;
-    left: 172px;
-} */
-
 .pikachuBRA {
     position: absolute;
     text-align: center;
@@ -80,10 +42,10 @@ main {
     height: 373px;
     font-family: "Righteous", sans-serif;
     color: #FFFFFF;
-    top: 263px;
-    left: 572px;
-    font-size: 300px;
-    font-weight: 400;
+    top: 350px;
+    left: 650px;
+    font-size: 350px;
+    font-weight: 600;
     z-index: -1;
 }
 
@@ -94,8 +56,8 @@ main {
     height: 492px;
     font-family: "Righteous", sans-serif;
     color: #FFFFFF;
-    top: 88px;
-    left: 511px;
+    top: 188px;
+    left: 550px;
     font-size: 400px;
     font-weight: 400;
     z-index: -2;
@@ -116,7 +78,7 @@ main {
     width: 530px;
     font-family: "Righteous", sans-serif;
     height: 79px;
-    top: 629px;
+    top: 529px;
     left: 70px;
     transform: translateX(-100%);
     text-align: left;
@@ -129,10 +91,30 @@ main {
     font-family: "Righteous", sans-serif;
     width: 489px;
     height: 75px;
-    top: 588px;
+    top: 500px;
     left: 10px;
     transform: translateX(-100%);
     text-align: left;
+}
+
+button {
+    position: absolute;
+    background-color: #8E4106;
+    color: #FFFFFF;
+    border-radius: 4px;
+    font-size: 24px;
+    width: 411px;
+    height: 100px;
+    top: 820px;
+    font-family: "Righteous", sans-serif;
+    right: 630px;
+    border: #8E4106;
+    transition: 0.6s;
+}
+
+.button:hover {
+    background-color: #bb7300;
+    cursor: pointer;
 }
 
 header {
@@ -161,7 +143,7 @@ footer {
     align-items: center;
     padding-right: 75px;
     padding-left: 75px;
-    color: #FFFFFF;
+    color:#8E4106;
     font-weight: 100;
 }
 
